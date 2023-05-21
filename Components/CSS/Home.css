@@ -1,0 +1,17 @@
+body{
+   font-family: sans-serif;
+   
+
+}
+
+.container{
+   width: 100%;
+   border:2px;
+}
+
+.topnav{
+   display: flex;
+   text-align: center;
+   text-decoration: none;
+   gap: 2em;
+}
