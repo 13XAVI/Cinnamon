@@ -2,7 +2,7 @@
 import Button from "./button";
 import WordsArrow from './wordsArrow';
 
-const SectionWithArrows = () => {
+const arrowSection = () => {
   return (
     <>
       <div className="bg-[#1C1C1C] bg-hero-pattern px-[30px] pt-[50px] pb-[80px] lg:px-[150px] lg:flex gap-[80px] lg:pb-[50px]">
@@ -26,4 +26,4 @@ const SectionWithArrows = () => {
   );
 };
 
-export default SectionWithArrows;
+export default arrowSection;

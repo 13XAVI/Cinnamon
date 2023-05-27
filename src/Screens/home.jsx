@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
-import HomeNav from "../components/homeNav";
+import HomeNav from "../components/homeNavigation";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Title from "../components/title";
-import BackgroundCard from "../components/backgroundCard";
+import BackgroundCard from "../components/background";
 import ServiceCard from "../components/serviceCard";
 import Button from "../components/button";
 import HomeCardGrid from "../components/homeCardGrid";
@@ -10,8 +10,8 @@ import TestimonialIcon from "../components/testimonialIcon";
 import Testimonial from "../components/testimonial";
 import WhoWeAre from "../components/whoWeAre";
 import TeamCard from "../components/teamCard";
-import SecondHomeCardGrid from "./../components/secondHomeCardGrid";
-import SectionWithArrows from "../components/sectionWithArrows";
+import SecondHomeCardGrid from "../components/HomeGrid2";
+import SectionWithArrows from "../components/arrowSection";
 import OfficeCards from "../components/officeCards";
 import React, { useRef } from 'react';
 const Home = () => {

@@ -1,7 +1,7 @@
 import Button from "./button";
 
 
-const SecondHomeCardGrid = () => {
+const HomeGrid2 = () => {
     return ( <>
     
     <div className=" px-[30px] lg:pt-[100px] h-[800px]  lg:h-[600px] flex flex-col gap-[50px]  lg:grid grid-cols-2 lg:pl-[150px] ">
@@ -36,4 +36,4 @@ const SecondHomeCardGrid = () => {
     </> );
 }
  
-export default SecondHomeCardGrid;
+export default HomeGrid2;
